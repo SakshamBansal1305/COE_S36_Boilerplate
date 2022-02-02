@@ -18,6 +18,7 @@ header{
 }
 h1 {
     font-weight: 900;
+    text-align: center;
 }
 h3 {
     font-size: 24px;
@@ -34,4 +35,23 @@ p, h3 {
     padding: 30px;
 }
 
+p{
+    font-weight: 50px;
+}
+
 /* Iteration 3: Styling the Section element by using flex properties */
+#wear, #eat{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    padding: 5vw;
+}
+
+#stay, #work, #wash{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row-reverse;
+    padding: 5vw;
+}
